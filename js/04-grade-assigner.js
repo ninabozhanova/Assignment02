@@ -2,13 +2,13 @@
 let score
 
 // COLLECT THE SCORE FROM THE USER
-score = parseInt(prompt('Enter your score'))
+score = parseFloat(prompt('Enter your score'))
 
 // CHECK THAT THE VALID SCORE WAS ENTERED
 if (score < 1 || score > 100) {
     alert('Only numbers between 1 and 100 are accepted')
 } else {
-    // PRINT THEIR GRADE
+    // SHOW THEIR GRADE
     if (score >= 90) {
         console.log('You received an A')
     } else if (score >= 80) {
@@ -21,6 +21,3 @@ if (score < 1 || score > 100) {
         console.log('You received an F')
     }
 }
-
-
-
