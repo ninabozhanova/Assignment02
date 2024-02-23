@@ -7,16 +7,19 @@ let languageName
 languageCode = prompt('Please chose one of the languages: es, de, en, or fr')
 
 // 'TRANSLATING'
-if (languageCode == 'es') {
+if (languageCode === 'es') {
     languageName = 'Spanish'
     translation = 'Hola Mundo'
-} else if (languageCode == 'de') {
+}
+if (languageCode === 'de') {
     languageName = 'German'
     translation = 'Hallo Welt'
-} else if (languageCode == 'fr') {
+}
+if (languageCode === 'fr') {
     languageName = 'French'
     translation = 'Bonjour le Monde'
-} else {
+}
+if (languageCode !== 'es' && languageCode !== 'de' && languageCode !== 'fr') {
     languageName = 'English'
     translation = 'Hello World'
 }
