@@ -21,5 +21,5 @@ if (languageCode == 'es') {
     translation = 'Hello World'
 }
 
-// DISPLAY WITHIN THE BROWSER WINDOW
-window.document.write(`'Hello World' in ${languageName} is: <b>${translation}</b>`)
+// DISPLAY WITHIN THE CONSOLE WINDOW
+console.log(`'Hello World' in ${languageName} is: ${translation}`)
