@@ -2,13 +2,13 @@
 let score
 
 // COLLECT THE SCORE FROM THE USER
-score = parseFloat(prompt('Enter your score'))
+score = parseFloat(prompt('Please enter your score'))
 
 // CHECK THAT THE VALID SCORE WAS ENTERED
 if (score < 1 || score > 100) {
     alert('Only numbers between 1 and 100 are accepted')
 } else {
-    // SHOW THEIR GRADE
+    // SHOW THEIR GRADE IN THE CONSOLE WINDOW
     if (score >= 90) {
         console.log('You received an A')
     } else if (score >= 80) {

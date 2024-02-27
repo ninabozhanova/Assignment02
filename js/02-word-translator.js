@@ -4,7 +4,7 @@ let translation
 let languageName
 
 // ASKING FOR THE LANGUAGE CODE
-languageCode = prompt('Please chose one of the languages: es, de, en, or fr').trim()
+languageCode = prompt('Please choose one of the languages: es, de, en, or fr').trim()
 
 // 'TRANSLATING'
 if (languageCode === 'es') {

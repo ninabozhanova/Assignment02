@@ -1,7 +1,10 @@
 // DECLARING VARIABLES
-let randomNum = Math.round(Math.random())
-let choice
+let randomNum
 let coinFlip
+let choice
+
+// USING A MATH METHOD TO GET A RANDOM NUMBER
+randomNum = Math.round(Math.random())
 
 // ASKING THE PLAYER TO SELECT HEADS OR TAILS
 choice = prompt('Select Heads or Tails (h/t)')
